@@ -1,22 +1,14 @@
 #include <iostream>
 
-int initx();
-int inidad();
-
-int g_x{initx()};
-int g_y{inity()};
-
-int initx()
-{
-	return g_y;
-}
-
-int inity()
-{
-	return 5;
-}
 int main()
 {
-	std::cout<<g_x<<""<<g_y<<'\n';
+	int array[5]{7,4,5};
+	
+	std::cout<<array[0]<<'\n';
+	std::cout<<array[1]<<'\n';
+	std::cout<<array[2]<<'\n';
+	std::cout<<array[3]<<'\n';
+	std::cout<<array[4]<<'\n';
 	return 0;
 }
+
